@@ -1,0 +1,16 @@
+library(readxl)
+> number_of_beneficiaries_under_old_age_pension_scheme_tnv_2018_19 <- read_excel("Downloads/number_of_beneficiaries_under_old_age_pension_scheme_tnv_2018_19.xls")
+> View(number_of_beneficiaries_under_old_age_pension_scheme_tnv_2018_19)                                                   
+> amitha<-read_excel("Downloads/number_of_beneficiaries_under_old_age_pension_scheme_tnv_2018_19.xls")
+> >                                                                                                                        
+Error: unexpected '>' in ">"
+> amitha<-read_excel("Downloads/number_of_beneficiaries_under_old_age_pension_scheme_tnv_2018_19.xls")
+                                                                                                                           
+> mean(amitha$`Beneficiaries under Indira Gandhi National Old Age Pension Scheme (IGNOAPS)`)
+[1] 2612.562
+> sd(amitha$`Beneficiaries under Indira Gandhi National Old Age Pension Scheme (IGNOAPS)`)
+[1] 802.825
+> mean(amitha$`Beneficiaries under Indira Gandhi National Disability Pension Scheme (IGNDPS)`)
+[1] 139.5
+> sd(amitha$`Beneficiaries under Indira Gandhi National Disability Pension Scheme (IGNDPS)`)
+[1] 84.77814
